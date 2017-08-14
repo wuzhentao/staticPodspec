@@ -24,4 +24,5 @@
          end
                                                
          s.frameworks =  "ImageIO"
+         s.dependency "FLAnimatedImage"
 end

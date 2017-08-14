@@ -20,8 +20,8 @@
          end
                                                
          s.subspec 'source' do |source|
-            source.source_files =  "AFNetworking/AFNetworking/AFNetworking.h", "AFNetworking/AFNetworking/AFNetworking.h", "AFNetworking/AFNetworking/AF{URL,HTTP}SessionManager.{h,m}", "AFNetworking/AFNetworking/AF{URL,HTTP}SessionManager.h", "AFNetworking/AFNetworking/AFNetworkReachabilityManager.{h,m}", "AFNetworking/AFNetworking/AFNetworkReachabilityManager.h", "AFNetworking/AFNetworking/AFSecurityPolicy.{h,m}", "AFNetworking/AFNetworking/AFSecurityPolicy.h", "AFNetworking/AFNetworking/AFURL{Request,Response}Serialization.{h,m}", "AFNetworking/AFNetworking/AFURL{Request,Response}Serialization.h", "AFNetworking/UIKit+AFNetworking", "AFNetworking/UIKit+AFNetworking/*.h", "AFNetworking/AFNetworking/AFNetworking.h", "AFNetworking/AFNetworking/AF{URL,HTTP}SessionManager.{h,m}", "AFNetworking/AFNetworking/AFNetworkReachabilityManager.{h,m}", "AFNetworking/AFNetworking/AFSecurityPolicy.{h,m}", "AFNetworking/AFNetworking/AFURL{Request,Response}Serialization.{h,m}", "AFNetworking/UIKit+AFNetworking"
+            source.source_files =  "AFNetworking/AFNetworking/AFNetworking.h", "AFNetworking/AFNetworking/AF{URL,HTTP}SessionManager.{h,m}", "AFNetworking/AFNetworking/AFNetworkReachabilityManager.{h,m}", "AFNetworking/AFNetworking/AFSecurityPolicy.{h,m}", "AFNetworking/AFNetworking/AFURL{Request,Response}Serialization.{h,m}", "AFNetworking/UIKit+AFNetworking"
          end
                                                
-         s.frameworks =  "SystemConfiguration", "Security", "MobileCoreServices", "CoreGraphics", "SystemConfiguration", "Security", "MobileCoreServices", "CoreGraphics"
+         s.frameworks =  "SystemConfiguration", "Security", "MobileCoreServices", "CoreGraphics"
 end
