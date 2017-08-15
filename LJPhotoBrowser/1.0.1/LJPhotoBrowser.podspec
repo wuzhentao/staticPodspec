@@ -8,7 +8,7 @@
          s.homepage         = 'https://lianjia.com'
          s.license          = { :type => 'MIT', :file => 'LJPhotoBrowser/LICENSE' }
          s.author           = { 'lianjia' => 'lianjia.com' }
-         s.source           = { :git => 'https://github.com/wuzhentao/staticPod.git', :commit => "af549e9b6a0ec2abdbfb0fe7b69feccc298db9f7" }
+         s.source           = { :git => 'https://github.com/wuzhentao/staticPod.git', :commit => "92e979981d477830d4a26a52359a3e8441f4b316" }
          s.preserve_paths = 'LJPhotoBrowser/*'
          s.ios.deployment_target = '8.0'
          s.default_subspec  = "static"
